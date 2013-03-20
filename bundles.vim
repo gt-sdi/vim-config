@@ -20,4 +20,5 @@ Bundle 'git://git.wincent.com/command-t.git'
 " Bundle 'git://github.com/scrooloose/syntastic.git'
 " Bundle 'git://github.com/Valloric/YouCompleteMe.git'
 " Bundle 'git://github.com/kchmck/vim-coffee-script.git'
+Bundle 'git@github.com:altercation/vim-colors-solarized.git'
 
