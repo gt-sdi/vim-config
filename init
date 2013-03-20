@@ -1,0 +1,9 @@
+#!/bin/sh
+ln -fs ~/Documents/configs/vim-config/.vimrc ~/.vimrc
+git submodule init
+git submodule update
+vim +BundleInstall +qall
+mkdir swap
+mkdir backups
+mkdir tmp
+
