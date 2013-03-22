@@ -48,7 +48,7 @@ set history=256  " Number of things to remember in history.
 set autowrite  " Writes on make/shell commands
 set ruler  " Ruler on
 set nu  " Line numbers on
-set nowrap  " Line wrapping off
+" set nowrap  " Line wrapping off
 set timeoutlen=250  " Time to wait after ESC (default causes an annoying delay)
 
 " Make Comments Grey (for ease of reading on dark background
@@ -101,10 +101,10 @@ set backupdir=~/Documents/configs/vim-config/backups " Where backups will go.
 set directory=~/Documents/configs/vim-config/tmp     " Where temporary files will go.
 
 "folding
-set foldmethod=syntax
-set foldopen-=search
-set foldcolumn=2
-nnoremap <Space> za
+" set foldmethod=syntax
+" set foldopen-=search
+" set foldcolumn=2
+" nnoremap <Space> za
 
 " bindings
 
