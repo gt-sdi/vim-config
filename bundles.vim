@@ -1,6 +1,5 @@
 set nocompatible
 filetype off
-filetype plugin indent on
 
 set rtp+=~/Documents/configs/vim-config/bundle/vundle/
 call vundle#rc()
@@ -25,3 +24,4 @@ Bundle 'git@github.com:altercation/vim-colors-solarized.git'
 Bundle 'git://github.com/tpope/vim-commentary.git'
 Bundle 'git://github.com/SirVer/ultisnips'
 
+filetype plugin indent on
