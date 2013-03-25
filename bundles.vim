@@ -8,6 +8,7 @@ call vundle#rc()
 Bundle 'git://github.com/gmarik/vundle'
 " Bundle 'git://github.com/scrooloose/nerdtree'
 " Bundle 'git://github.com/jistr/vim-nerdtree-tabs'
+Bundle 'vim-ruby/vim-ruby'
 Bundle 'git://github.com/tpope/vim-rails'
 " Bundle 'git://github.com/majutsushi/tagbar'
 " Bundle 'git://github.com/ludovicPelle/vim-xdebug'
@@ -22,4 +23,5 @@ Bundle 'git://git.wincent.com/command-t.git'
 " Bundle 'git://github.com/kchmck/vim-coffee-script.git'
 Bundle 'git@github.com:altercation/vim-colors-solarized.git'
 Bundle 'git://github.com/tpope/vim-commentary.git'
+Bundle 'git://github.com/SirVer/ultisnips'
 
