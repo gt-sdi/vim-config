@@ -6,7 +6,7 @@ let mapleader = ","
 " localleader can be used for specific files
 let maplocalleader = ",,"
 
-" set jk in insert mode to be esc (far faster than reaching all the way to esc)
+" set jj in insert mode to be esc (far faster than reaching all the way to esc)
 inoremap jj <esc>
 
 " remove the arrow keys in normal mode, use hjkl instead
@@ -121,14 +121,10 @@ noremap th :tabprev<CR>
 noremap tn :tabnew<CR>
 noremap td :tabclose<CR>
 
-" Commant-T
-
 " double percentage sign in command mode is expanded
 " " to directory of current file - http://vimcasts.org/e/14
 cnoremap %% <C-R>=expand('%:h').'/'<cr>
 
-map <leader>f :CommandTFlush<cr>\|:CommandT<cr>
-map <leader>F :CommandTFlush<cr>\|:CommandT %%<cr>
 
 " open your vimrc file in a new split
 nnoremap <leader>ev :vsplit $MYVIMRC<CR>
