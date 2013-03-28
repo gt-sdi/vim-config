@@ -157,3 +157,5 @@ augroup filetype_coffee
   setl foldmethod=indent
 augroup END
 
+let g:ragtag_global_maps = 1
+
