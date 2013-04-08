@@ -148,9 +148,6 @@ set fileencoding=utf-8
 " fix html indenting a little
 autocmd FileType html setlocal indentkeys-=*<Return>
 
-au BufRead,BufNewFile *.slim set filetype=slim
-au! Syntax slim source ~/Documents/configs/vim-config/syntax/slim.vim
-
 au BufNewFile,BufReadPost *.coffee set filetype=coffee
 augroup filetype_coffee
   setl shiftwidth=2 expandtab

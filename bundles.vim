@@ -16,5 +16,6 @@ Bundle 'git://github.com/SirVer/ultisnips'
 Bundle 'vim-scripts/cheat'
 Bundle 'tpope/vim-ragtag'
 Bundle 'nelstrom/vim-markdown-preview'
+Bundle 'slim-template/vim-slim'
 
 filetype plugin indent on
