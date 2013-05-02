@@ -17,5 +17,6 @@ Bundle 'vim-scripts/cheat'
 Bundle 'tpope/vim-ragtag'
 Bundle 'nelstrom/vim-markdown-preview'
 Bundle 'slim-template/vim-slim'
+Bundle 'scrooloose/nerdtree'
 
 filetype plugin indent on

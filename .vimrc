@@ -11,9 +11,13 @@ inoremap jj <esc>
 
 " remove the arrow keys in normal mode, use hjkl instead
 nnoremap <silent> <Up> :wincmd k<CR>
+nnoremap <C-k> :wincmd k<CR>
 nnoremap <silent> <Down> :wincmd j<CR>
+nnoremap <C-j> :wincmd j<CR>
 nnoremap <silent> <Left> :wincmd h<CR>
+nnoremap <C-h> :wincmd h<CR>
 nnoremap <silent> <Right> :wincmd l<CR>
+nnoremap <C-l> :wincmd l<CR>
 " same for insert mode
 " inoremap <Up> <nop>
 " inoremap <Down> <nop>
@@ -155,4 +159,6 @@ augroup filetype_coffee
 augroup END
 
 let g:ragtag_global_maps = 1
+
+nnoremap <leader>nt :NERDTree<CR>
 
