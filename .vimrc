@@ -18,11 +18,6 @@ nnoremap <silent> <Left> :wincmd h<CR>
 nnoremap <C-h> :wincmd h<CR>
 nnoremap <silent> <Right> :wincmd l<CR>
 nnoremap <C-l> :wincmd l<CR>
-" same for insert mode
-" inoremap <Up> <nop>
-" inoremap <Down> <nop>
-" inoremap <Left> <nop>
-" inoremap <Right> <nop>
 
 filetype on  " Automatically detect file types.
 set nocompatible  " We don't want vi compatibility.
@@ -31,15 +26,6 @@ set laststatus=2   " Always show the statusline
 " Add recently accessed projects menu (project plugin)
 set viminfo^=!
 
-" Minibuffer Explorer Settings
-let g:miniBufExplMapWindowNavVim = 1
-let g:miniBufExplMapWindowNavArrows = 1
-let g:miniBufExplMapCTabSwitchBufs = 1
-let g:miniBufExplModSelTarget = 1
-
-" alt+n or alt+p to navigate between entries in QuickFix
-"map   :cp 
-"map   :cn 
 
 " Change which file opens after executing :Rails command
 let g:rails_default_file='config/database.yml'
@@ -54,16 +40,6 @@ set ruler  " Ruler on
 set nu  " Line numbers on
 " set nowrap  " Line wrapping off
 set timeoutlen=250  " Time to wait after ESC (default causes an annoying delay)
-
-" Make Comments Grey (for ease of reading on dark background
-"hi Folded ctermbg=black ctermfg=gray
-"hi Comment ctermfg=darkgrey
-
-"highlight DiffAdd cterm=none ctermfg=gray ctermbg=darkblue
-"highlight DiffDelete cterm=none ctermfg=gray ctermbg=cyan
-"highlight DiffChange cterm=none ctermfg=green ctermbg=black 
-"highlight DiffText cterm=none ctermfg=green ctermbg=darkgreen 
-"highlight Directory cterm=none ctermfg=lightblue ctermbg=none
 
 " Force 256 colours in term
 set t_Co=256
@@ -110,7 +86,7 @@ set directory=~/Documents/configs/vim-config/tmp     " Where temporary files wil
 " set foldcolumn=2
 " nnoremap <Space> za
 
-" bindings
+"============= bindings ===============
 
 "toggle line numbers
 " noremap <C-l> :set invnu<CR>
