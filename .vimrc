@@ -133,6 +133,10 @@ set enc=utf-8
 set termencoding=utf-8
 set fileencoding=utf-8
 
+" keep the visual selection active after indenting.
+vmap > >gv
+vmap < <gv
+
 " autocommands
 
 " fix html indenting a little
