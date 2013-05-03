@@ -80,18 +80,28 @@ set backup                     " Enable creation of backup file.
 set backupdir=~/Documents/configs/vim-config/backups " Where backups will go.
 set directory=~/Documents/configs/vim-config/tmp     " Where temporary files will go.
 
-"folding
-" set foldmethod=syntax
-" set foldopen-=search
-" set foldcolumn=2
-" nnoremap <Space> za
+"folding - which I don't really use so turned off
+set nofoldenable
 
 "============= bindings ===============
 
 "toggle line numbers
 " noremap <C-l> :set invnu<CR>
 
-"relative line numbers
+"Function to toggle line Relative / Absolute line numbering
+function! g:ToggleNuMode() 
+if(&rnu == 1) 
+set nu 
+else 
+set rnu 
+endif 
+endfunc 
+
+
+"Map toggle relative/absolute line numbering
+nnoremap <C-N> :call g:ToggleNuMode()<cr>
+
+" start with relative line numbers
 set nonumber
 set relativenumber
 
