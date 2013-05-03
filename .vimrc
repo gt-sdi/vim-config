@@ -150,5 +150,21 @@ augroup END
 
 let g:ragtag_global_maps = 1
 
-nnoremap <leader>nt :NERDTree<CR>
+" nnoremap <leader>nt :NERDTree<CR>
+
+"""""""" NERDTree: 
+" much of this is from http://github.com/spicycode/Vimlander-2-The-Quickening
+map <Leader>nt :NERDTreeToggle<CR>
+" Enable nice colors
+let NERDChristmasTree = 1
+" Make it easy to see where we are
+let NERDTreeHighlightCursorline = 1
+" Make bookmarks visible
+let NERDTreeShowBookmarks = 1
+" Show hidden files
+let NERDTreeShowHidden = 1
+" Don't hijack NETRW
+"let NERDTreeHijackNetrw = 0
+let NERDTreeHijackNetrw = 1
+let NERDTreeIgnore=['\.$', '\~$']
 
