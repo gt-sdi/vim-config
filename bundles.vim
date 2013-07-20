@@ -19,5 +19,7 @@ Bundle 'nelstrom/vim-markdown-preview'
 Bundle 'slim-template/vim-slim'
 Bundle 'scrooloose/nerdtree'
 Bundle 'godlygeek/tabular'
+Bundle 'git://github.com/vim-scripts/EasyGrep.git'
+Bundle 'git://github.com/mileszs/ack.vim.git'
 
 filetype plugin indent on
