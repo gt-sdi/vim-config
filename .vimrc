@@ -1,6 +1,8 @@
 "r_dump($stor bundles/plugins file to install from
 source ~/Documents/configs/vim-config/bundles.vim
 
+set guifont=Anonymous\ Pro:h13
+
 " set the <leader> placeholder to be ,
 let mapleader = ","
 " localleader can be used for specific files
