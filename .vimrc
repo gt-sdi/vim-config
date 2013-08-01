@@ -121,6 +121,9 @@ nnoremap <leader>ev :vsplit $MYVIMRC<CR>
 " reload your vimrc in the current buffer
 nnoremap <leader>sv :source $MYVIMRC<CR>:echom 'Resourced vimrc file'<CR>
 
+"Dash integration
+:nmap <silent> <leader>d <Plug>DashSearch
+
 " paste mode
 nnoremap <leader>pm :set invpaste<CR>
 
