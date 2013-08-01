@@ -21,5 +21,7 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'godlygeek/tabular'
 Bundle 'git://github.com/vim-scripts/EasyGrep.git'
 Bundle 'git://github.com/mileszs/ack.vim.git'
+Bundle 'rizzatti/funcoo.vim'
+Bundle 'rizzatti/dash.vim'
 
 filetype plugin indent on
