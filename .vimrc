@@ -21,6 +21,9 @@ nnoremap <C-h> :wincmd h<CR>
 nnoremap <silent> <Right> :wincmd l<CR>
 nnoremap <C-l> :wincmd l<CR>
 
+" Add a split line command
+nnoremap K i<CR><Esc>
+
 filetype on  " Automatically detect file types.
 set nocompatible  " We don't want vi compatibility.
 set laststatus=2   " Always show the statusline
