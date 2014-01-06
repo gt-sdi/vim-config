@@ -42,7 +42,6 @@ set clipboard+=unnamed  " Yanks go on clipboard instead.
 set history=256  " Number of things to remember in history.
 set autowrite  " Writes on make/shell commands
 set ruler  " Ruler on
-set nu  " Line numbers on
 " set nowrap  " Line wrapping off
 set timeoutlen=250  " Time to wait after ESC (default causes an annoying delay)
 
@@ -90,24 +89,11 @@ set nofoldenable
 
 "============= bindings ===============
 
-"toggle line numbers
-" noremap <C-l> :set invnu<CR>
-
-"Function to toggle line Relative / Absolute line numbering
-function! g:ToggleNuMode() 
-if(&rnu == 1) 
-set nu 
-else 
-set rnu 
-endif 
-endfunc 
-
-
 "Map toggle relative/absolute line numbering
-nnoremap <C-N> :call g:ToggleNuMode()<cr>
+nnoremap <C-N> :set invrnu<cr>
 
 " start with relative line numbers
-set nonumber
+set number
 set relativenumber
 
 " some tab maps
