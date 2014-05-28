@@ -23,7 +23,8 @@ Bundle 'git://github.com/vim-scripts/EasyGrep.git'
 Bundle 'git://github.com/mileszs/ack.vim.git'
 Bundle 'rizzatti/funcoo.vim'
 Bundle 'rizzatti/dash.vim'
-Bundle 'hallison/vim-markdown'
+" Bundle 'hallison/vim-markdown'
+Bundle 'suan/vim-instant-markdown'
 Bundle 'vim-scripts/vimwiki'
 
 filetype plugin indent on
