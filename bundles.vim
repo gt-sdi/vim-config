@@ -25,5 +25,6 @@ Bundle 'rizzatti/funcoo.vim'
 Bundle 'rizzatti/dash.vim'
 Bundle 'hallison/vim-markdown'
 Bundle 'vim-scripts/vimwiki'
+Bundle 'rizzatti/dash.vim'
 
 filetype plugin indent on
