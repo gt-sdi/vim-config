@@ -2,4 +2,5 @@ tmp/
 swap/
 backups/
 logfile
+.DS_Store
 
