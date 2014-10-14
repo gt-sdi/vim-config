@@ -1,3 +1,5 @@
+set shell=/bin/bash
+
 "r_dump($stor bundles/plugins file to install from
 source ~/Documents/configs/vim-config/bundles.vim
 
