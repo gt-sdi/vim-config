@@ -1,7 +1,11 @@
 set shell=/bin/bash
 
-"r_dump($stor bundles/plugins file to install from
+set nocompatible  " We don't want vi compatibility.
+
+" Pull in the Vundle bundles
 source ~/dotfiles/vim/bundles.vim
+
+filetype plugin indent on  " Automatically detect file types.
 
 set guifont=Anonymous\ Pro:h13
 
@@ -26,8 +30,6 @@ nnoremap <C-l> :wincmd l<CR>
 " Add a split line command
 nnoremap K i<CR><Esc>
 
-filetype on  " Automatically detect file types.
-set nocompatible  " We don't want vi compatibility.
 set laststatus=2   " Always show the statusline
 
 " Add recently accessed projects menu (project plugin)
@@ -35,7 +37,7 @@ set viminfo^=!
 
 
 " Change which file opens after executing :Rails command
-let g:rails_default_file='config/database.yml'
+" let g:rails_default_file='config/database.yml'
 
 syntax enable
 
@@ -44,12 +46,10 @@ set clipboard+=unnamed  " Yanks go on clipboard instead.
 set history=256  " Number of things to remember in history.
 set autowrite  " Writes on make/shell commands
 set ruler  " Ruler on
-" set nowrap  " Line wrapping off
 set timeoutlen=250  " Time to wait after ESC (default causes an annoying delay)
 
 " Force 256 colours in term
 set t_Co=256
-" colorscheme hybrid
 
 " Formatting (some of these are for coding in C and C++)
 set ts=2  " Tabs are 4 spaces
@@ -120,7 +120,7 @@ nnoremap <leader>sv :source $MYVIMRC<CR>:echom 'Resourced vimrc file'<CR>
 " paste mode
 nnoremap <leader>pm :set invpaste<CR>
 
-" control-u will now uppercase the word you are typing while in insertmode
+" control-u will uppercase the word you are typing while in insertmode
 inoremap <c-u> <esc>viwUA<CR>
 " control-u will uppercase the word the cursor is on when in normal-mode
 nnoremap <c-u> viwU
@@ -146,9 +146,8 @@ augroup END
 
 let g:ragtag_global_maps = 1
 
-" nnoremap <leader>nt :NERDTree<CR>
 
-"""""""" NERDTree: 
+" NERDTree: 
 " much of this is from http://github.com/spicycode/Vimlander-2-The-Quickening
 map <Leader>nt :NERDTreeToggle<CR>
 " Enable nice colors
