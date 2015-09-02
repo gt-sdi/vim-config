@@ -1,7 +1,7 @@
 set shell=/bin/bash
 
 "r_dump($stor bundles/plugins file to install from
-source ~/Documents/configs/vim-config/bundles.vim
+source ~/dotfiles/vim/bundles.vim
 
 set guifont=Anonymous\ Pro:h13
 
@@ -83,8 +83,8 @@ set mouse=a  " Mouse in all modes
 
 " Backups & Files
 set backup                     " Enable creation of backup file.
-set backupdir=~/Documents/configs/vim-config/backups " Where backups will go.
-set directory=~/Documents/configs/vim-config/tmp     " Where temporary files will go.
+set backupdir=~/dotfiles/vim/backups " Where backups will go.
+set directory=~/dotfiles/vim/tmp     " Where temporary files will go.
 
 "folding - which I don't really use so turned off
 set nofoldenable
